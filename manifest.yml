@@ -3,4 +3,5 @@ applications:
 - name: hello-springboot
   memory: 640M
   instances: 1
+  buildpacks: java_buildpack
   path: ./target/gs-rest-service-0.1.0.jar
