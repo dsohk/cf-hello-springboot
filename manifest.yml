@@ -1,7 +1,6 @@
 ---
 applications:
 - name: hello-springboot
-  memory: 256M
+  memory: 512M
   instances: 1
-  host: hello-springboot
   path: ./target/gs-rest-service-0.1.0.jar
